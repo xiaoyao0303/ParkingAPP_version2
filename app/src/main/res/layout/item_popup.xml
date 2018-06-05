@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="10dp">
+
+    <Button
+        android:id="@+id/btn_add_pic_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/add_camera"
+        android:textColor="#55a1ec"
+        android:background="#e1ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_add_pic_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/add_local"
+        android:textColor="#55a1ec"
+        android:background="#e1ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#e1ffffff"
+        android:padding="5dp"
+        android:text="@string/delete"
+        android:textColor="#55a1ec"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

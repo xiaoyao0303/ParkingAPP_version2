@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--//添加标题头部-->
+    <!--<include-->
+    <!--layout="@layout/register_head"-->
+    <!--android:id="@+id/register_head"-->
+    <!--/>-->
+
+    <!--<LinearLayout-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_centerInParent="true">-->
+
+        <!--//电话-->
+        <!--<LinearLayout-->
+            <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="20pt"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--android:id="@+id/register_contact_textview"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="电话："-->
+                <!--android:textSize="20dp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--/>-->
+            <!--<EditText-->
+                <!--android:id="@+id/register_contact_text"-->
+                <!--android:layout_width="200dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="20dp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:hint="请输入电话"-->
+                <!--android:background="@drawable/edittext_style"-->
+                <!--android:singleLine="true"-->
+                <!--android:ellipsize="start"-->
+                <!--android:selectAllOnFocus="true"-->
+                <!--android:maxWidth="200dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:inputType="number"-->
+
+                <!--/>-->
+        <!--</LinearLayout>-->
+
+        <!--//验证码-->
+        <!--<TextView-->
+            <!--android:id="@+id/register_contact_textview"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="验证码："-->
+            <!--android:textSize="20dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--/>-->
+        <!--<EditText-->
+            <!--android:id="@+id/register_contact_text"-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:hint="请输入验证码"-->
+            <!--android:background="@drawable/edittext_style"-->
+            <!--android:singleLine="true"-->
+            <!--android:ellipsize="start"-->
+            <!--android:selectAllOnFocus="true"-->
+            <!--android:maxWidth="200dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:inputType="number"-->
+
+            <!--/>-->
+
+
+        <!--//密码部分-->
+        <!--<LinearLayout-->
+            <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="20pt"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--android:id="@+id/register_password_textview"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="密  码："-->
+                <!--android:textSize="20dp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--/>-->
+            <!--<EditText-->
+                <!--android:id="@+id/register_password_text"-->
+                <!--android:layout_width="200dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="20dp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:hint="请输入密码"-->
+                <!--android:background="@drawable/edittext_style"-->
+                <!--android:singleLine="true"-->
+                <!--android:password="true"-->
+                <!--android:ellipsize="start"-->
+                <!--android:selectAllOnFocus="true"-->
+                <!--android:maxWidth="200dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+
+                <!--/>-->
+        <!--</LinearLayout>-->
+
+        <!--//再次输入密码-->
+        <!--<LinearLayout-->
+            <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="20pt"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--android:id="@+id/register_again_password_textview"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="再次输入："-->
+                <!--android:textSize="20dp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--/>-->
+            <!--<EditText-->
+                <!--android:id="@+id/register_again_password_text"-->
+                <!--android:layout_width="200dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="20dp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:hint="请再次输入密码"-->
+                <!--android:background="@drawable/edittext_style"-->
+                <!--android:singleLine="true"-->
+                <!--android:password="true"-->
+                <!--android:ellipsize="start"-->
+                <!--android:selectAllOnFocus="true"-->
+                <!--android:maxWidth="200dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+
+                <!--/>-->
+        <!--</LinearLayout>-->
+
+
+
+
+
+        <!--//最后一行-->
+
+        <!--<LinearLayout-->
+            <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="20pt"-->
+            <!--&gt;-->
+            <!--<CheckBox-->
+                <!--android:id="@+id/agree_protocal"-->
+                <!--android:text="同意《睿泊智慧停车用户协议》"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="10dp"-->
+                <!--android:layout_marginRight="10dp"/>-->
+            <!--<Button-->
+                <!--android:id="@+id/register_button"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="开始注册"-->
+
+                <!--android:textSize="20dp"-->
+                <!--android:layout_marginLeft="10dp"/>-->
+        <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+</RelativeLayout>

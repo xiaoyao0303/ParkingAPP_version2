@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+        <group android:checkableBehavior="single">
+
+            <item
+            android:id="@+id/navigation_item_account"
+            android:icon="@drawable/my_account"
+            android:title="@string/acc_management" />
+            <item
+            android:id="@+id/navigation_item_link"
+            android:checked="true"
+            android:icon="@drawable/my_link"
+            android:title="@string/link_lock" />
+            <item
+            android:id="@+id/navigation_item_parking_space"
+            android:icon="@drawable/my_parking_space"
+            android:title="@string/my_parking_space" />
+            <item
+            android:id="@+id/navigation_item_my_order"
+            android:icon="@drawable/my_order"
+            android:title="@string/my_order" />
+            <item
+            android:id="@+id/navigation_item_paying"
+            android:icon="@drawable/my_paying"
+            android:title="@string/my_wallet" />
+
+            <item android:title="@string/other">
+            <menu>
+                <item
+                android:id="@+id/navigation_item_comment"
+                android:checkable="true"
+                android:icon="@drawable/my_comment"
+                android:title="@string/comment_return" />
+
+                <item
+                android:id="@+id/navigation_item_about"
+                android:checkable="true"
+                android:icon="@drawable/my_about"
+                android:title="@string/about" />
+            </menu>
+            </item>
+            </group>
+
+            </menu>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<menu xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--tools:context=".MainActivity">-->
+
+    <!--<group android:checkableBehavior="single">-->
+
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_home"-->
+    <!--android:icon="@drawable/all"-->
+    <!--android:title="@string/acc_management" />-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_ganhuo"-->
+    <!--android:checked="true"-->
+    <!--android:icon="@drawable/all"-->
+    <!--android:title="@string/link_lock" />-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_blog"-->
+    <!--android:icon="@drawable/all"-->
+    <!--android:title="@string/my_parking_space" />-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_custom_view"-->
+    <!--android:icon="@drawable/all"-->
+    <!--android:title="@string/my_order" />-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_snackbar"-->
+    <!--android:icon="@drawable/all"-->
+    <!--android:title="@string/paying" />-->
+
+    <!--<item android:title="@string/other">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_switch_theme"-->
+    <!--android:checkable="true"-->
+    <!--android:icon="@drawable/all"-->
+    <!--android:title="@string/comment_return" />-->
+
+    <!--<item-->
+    <!--android:id="@+id/navigation_item_about"-->
+    <!--android:checkable="true"-->
+    <!--android:icon="@drawable/all"-->
+    <!--android:title="关于" />-->
+    <!--</menu>-->
+    <!--</item>-->
+    <!--</group>-->
+
+    <!--</menu>-->
+

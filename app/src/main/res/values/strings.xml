@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">ParkingAPP_version2</string>
+
+
+    <string name="other">其他</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+
+
+    //action_bar
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+
+    //绑定车锁界面
+    <string name="link_lock">绑定车锁</string>
+    <string name="add_parking_pic">添加车位图片</string>
+    <string name="add_lock_id">车锁信息</string>
+    <string name="lock_id_write">手动输入车位ID</string>
+    <string name="add_lock_location">车锁位置</string>
+    <string name="lock_location_write">手动输入车锁具体位置</string>
+    <string name="scan_my_camera">将二维码/条码放入框内，即可自动扫描</string>
+    <string name="QRcode">二维码/条码</string>
+    <string name="add_camera">拍照</string>
+    <string name="add_local">本地上传</string>
+    <string name="delete">取消</string>
+    <string name="info_saving">保存</string>
+    <string name="menu_camera_photograph">拍摄</string>
+    <string name="menu_camera_album">从相册选取</string>
+
+    //评价界面
+    <string name="evaluate">发表评价</string>
+    <string name="good_review">好评</string>
+    <string name="assessment">中评</string>
+    <string name="bad_review">差评</string>
+    <string name="evaluate_text">停车位地理位置怎么样？周围环境怎么样？给其他小伙伴做个参考呗</string>
+    <string name="anonymity">匿名</string>
+    <string name="anonymity_text">你的意见可以帮助其他小伙伴哦</string>
+    <string name="tv_parking_comment">停车场评价</string>
+    <string name="tv_co_location">地理位置</string>
+    <string name="tv_function">基础设施</string>
+    <string name="tv_co_service">服务态度</string>
+    <string name="submit_evaluate">发布</string>
+    <string name="submit_success">评价成功</string>
+    <string name="check_comment">查看我的评价</string>
+    <string name="check_comment_text">您的评价会帮助到其他伙伴，请继续保持哦，加油</string>
+
+    //账号管理
+    <string name="acc_management">账号管理</string>
+    <string name="signature">请输入你的个性签名</string>
+    <string name="new_signature">昵称:</string>
+    <string name="alter_signature">请输入您的昵称</string>
+    <string name="gender">性别:</string>
+    <string name="men">男</string>
+    <string name="birthday">出生年月:</string>
+    <string name="birthday_date">2018.04.08</string>
+    <string name="info_complete">资料完善:</string>
+    <string name="link_identity_card">绑定身份证号</string>
+    <string name="link_paying">绑定支付宝账号</string>
+    <string name="link_mail">绑定邮箱账号</string>
+    <string name="email">请输入您的邮箱账号</string>
+    <string name="identity_card">请输入您的身份证号</string>
+    <string name="paying">支付宝账号</string>
+
+    //意见与反馈
+    <string name="comment_return">意见反馈</string>
+    <string name="problem">您在哪方面遇到了问题:</string>
+    <string name="navigation">导航</string>
+    <string name="consult">咨询</string>
+    <string name="location">定位</string>
+    <string name="comment_other">其他（选填）</string>
+    <string name="comment_text">我们将不断为您改进，请写入（最多150字）</string>
+    <string name="mail">邮箱（选填）</string>
+    <string name="mail_import">输入邮箱地址</string>
+    <string name="contact_phone">您的其他联系方式</string>
+    <string name="submit">提交</string>
+
+    //我的订单
+    <string name="my_order">我的订单</string>
+
+
+    //我的车位
+    <string name="my_parking_space">我的车位</string>
+
+    //我的钱包
+    <string name="my_wallet">我的钱包</string>
+
+</resources>

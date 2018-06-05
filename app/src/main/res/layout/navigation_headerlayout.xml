@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_navigation_header"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="?attr/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/my_account"
+        app:border_color="#fff"
+        app:border_width="2dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_blur"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/user_line"
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="15dp"
+            android:background="#ffffff"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/user_line"
+            android:text="@string/login"
+            android:textSize="17sp"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/user_line"
+            android:text="@string/register"
+            android:textSize="17sp"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

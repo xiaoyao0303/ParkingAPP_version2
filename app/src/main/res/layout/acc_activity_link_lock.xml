@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_link_lock"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="35sp"
+            android:layout_height="20sp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/comment_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/back"
+            android:text="@string/link_lock"
+            android:layout_centerVertical="true"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_alignParentEnd="true"
+            android:text="@string/info_saving"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:id="@+id/iv_add_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/pic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_add_pic"
+            android:layout_centerHorizontal="true"
+            android:text="@string/add_parking_pic"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/tv_add_lock_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_lock_id"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+        <EditText
+            android:id="@+id/et_lock_id_write"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_add_lock_info"
+            android:layout_marginLeft="30dp"
+            android:hint="@string/lock_id_write"
+            android:textSize="15sp"/>
+        <Button
+            android:id="@+id/btn_scanning"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/et_lock_id_write"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/my_scanning"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tv_add_lock_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_lock_location"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="14dp"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+        <EditText
+            android:id="@+id/et_lock_location_write"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_add_lock_location"
+            android:layout_marginLeft="30dp"
+            android:hint="@string/lock_location_write"
+            android:textSize="15sp"/>
+        <Button
+            android:id="@+id/btn_location"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/et_lock_location_write"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/map"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

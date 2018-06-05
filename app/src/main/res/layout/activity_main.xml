@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.parkingapp_version2.MainActivity">
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            // Toolbar代替Actionbar
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/cardview_light_background">
+            </android.support.v7.widget.Toolbar>
+
+            <!--主内容区-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about"
+                    android:textSize="30sp"/>
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <!-- 菜单部分 -->
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"/>
+            app:menu="@menu/menu_drawer"
+            app:headerLayout="@layout/navigation_headerlayout" />
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_comment"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="35sp"
+                android:layout_height="20sp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/back" />
+
+            <TextView
+                android:id="@+id/comment_return"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="30dp"
+                android:layout_toEndOf="@+id/back"
+                android:text="@string/comment_return"
+                android:layout_centerVertical="true"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_radiogroup"
+            android:layout_width="match_parent"
+            android:padding="2dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/tv_problem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/problem"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/radio_group1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_problem"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rd_navigation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:tag="na"
+                    android:text="@string/navigation"
+                    android:textSize="15sp"/>
+                <RadioButton
+                    android:id="@+id/rd_consult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:tag="co"
+                    android:text="@string/consult"
+                    android:textSize="15sp"/>
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radio_group2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/radio_group1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rd_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:tag="lo"
+                    android:text="@string/location"
+                    android:textSize="15sp"/>
+                <RadioButton
+                    android:id="@+id/rd_other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:tag="ot"
+                    android:text="@string/other"
+                    android:textSize="15sp"/>
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_edit"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:id="@+id/tv_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/comment_return"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/comment_text"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/tv_comment"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/comment_text"
+                android:gravity="start"
+                android:includeFontPadding="true"
+                android:textSize="15sp"
+                android:scrollbars="vertical"
+                android:background="@drawable/shape" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/tv_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:textSize="17sp"
+                android:text="@string/mail" />
+
+            <EditText
+                android:id="@+id/et_mail"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@drawable/shape"
+                android:layout_alignParentTop="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="20dp"
+                android:hint="@string/mail_import"
+                android:textSize="15sp"
+                android:layout_toEndOf="@+id/tv_mail" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/tv_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/et_contact"
+                android:layout_alignParentStart="true"
+                android:textSize="17sp"
+                android:text="@string/other" />
+
+            <EditText
+                android:id="@+id/et_contact"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@drawable/shape"
+                android:layout_alignParentTop="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="20dp"
+                android:hint="@string/contact_phone"
+                android:textSize="15sp"
+                android:layout_toEndOf="@+id/tv_other" />
+
+            <Button
+                android:id="@+id/bt_submit"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="32dp"
+                android:text="@string/submit"
+                android:textSize="15sp"
+                android:background="@drawable/bt_shape"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
